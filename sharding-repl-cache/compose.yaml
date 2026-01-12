@@ -250,7 +250,7 @@ services:
       timeout: 5s
       retries: 5
       start_period: 3s
-      
+
   pymongo_api:
     container_name: pymongo_api
     build: 
@@ -269,6 +269,7 @@ services:
     environment:
       MONGODB_URL: "mongodb://mongos_router:27020"
       MONGODB_DATABASE_NAME: "somedb"
+      REDIS_URL: "redis://redis:6379"
 
 
 
