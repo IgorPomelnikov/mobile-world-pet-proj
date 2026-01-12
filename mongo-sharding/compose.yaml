@@ -14,7 +14,7 @@ services:
       - config-data:/data/db
     command:
       [
-        "--configsvr",  #запуск в режиме конфигурации
+        "--configsvr",
         "--replSet",
         "config_server",
         "--bind_ip_all",

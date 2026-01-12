@@ -1,0 +1,34 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.2.9 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="-H_mtQnk-PTXWXPvYvuk">
+    <mxGraphModel dx="634" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zA23MoTUsTF4_91t8viU-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="pymongo-api" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gVe40O9yZqe5BOUXQkvW-7" edge="1" parent="1" source="gVe40O9yZqe5BOUXQkvW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="gVe40O9yZqe5BOUXQkvW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gVe40O9yZqe5BOUXQkvW-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="router" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gVe40O9yZqe5BOUXQkvW-2" edge="1" parent="1" source="gVe40O9yZqe5BOUXQkvW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="gVe40O9yZqe5BOUXQkvW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gVe40O9yZqe5BOUXQkvW-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="configs" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gVe40O9yZqe5BOUXQkvW-4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Mongo DB&lt;div&gt;shard1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="60" x="370" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="gVe40O9yZqe5BOUXQkvW-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Mongo DB&lt;div&gt;shard2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="60" x="470" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="gVe40O9yZqe5BOUXQkvW-8" edge="1" parent="1" source="gVe40O9yZqe5BOUXQkvW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="gVe40O9yZqe5BOUXQkvW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
