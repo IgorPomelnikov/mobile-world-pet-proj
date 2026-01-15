@@ -1,8 +1,8 @@
-# pymongo-api
+# Сдача проектной работы 4 спринта
 
 ## Диаграммы 
 
-Последняя версия диаграммы лежит по пути docs/diagrams/plan_step5.drawio
+Последняя версия диаграммы лежит по пути [docs/diagrams/plan_step5.drawio](/docs/diagrams/plan_step5.drawio)
 
 ## Как запустить
 
